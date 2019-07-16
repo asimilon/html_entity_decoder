@@ -13,7 +13,7 @@ String inputString = "This string contained &lt;HTML&gt; entities!";
 auto result = HTMLEntityDecoder::decode(inputString);
 ```
 
-`result` would be "This string contained <HTML> entities!" after decoding.
+`result` would be `"This string contained <HTML> entities!"` after decoding.
 
 ## Contributing:
 
